@@ -1,0 +1,11 @@
+import MetamathematicsConstructiveSystemsFoundationCanonicalLaneLean.ConstructiveSystemClosure
+
+namespace HautevilleHouse
+namespace MetamathematicsConstructiveSystemsFoundationCanonicalLaneLean
+
+theorem constructive_core_closure (A : AdmissibleClass) :
+    ConstructiveSystemClosure A := by
+  exact constructive_system_endgame A
+
+end MetamathematicsConstructiveSystemsFoundationCanonicalLaneLean
+end HautevilleHouse
